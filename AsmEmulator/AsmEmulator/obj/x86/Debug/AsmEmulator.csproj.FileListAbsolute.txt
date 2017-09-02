@@ -1,0 +1,8 @@
+E:\C#\AsmEmulator\AsmEmulator\AsmEmulator\bin\x86\Debug\Content\Tiles_445.xnb
+E:\C#\AsmEmulator\AsmEmulator\AsmEmulator\bin\x86\Debug\AsmEmulator.exe
+E:\C#\AsmEmulator\AsmEmulator\AsmEmulator\bin\x86\Debug\AsmEmulator.pdb
+E:\C#\AsmEmulator\AsmEmulator\AsmEmulator\obj\x86\Debug\AsmEmulator.csprojResolveAssemblyReference.cache
+E:\C#\AsmEmulator\AsmEmulator\AsmEmulator\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\C#\AsmEmulator\AsmEmulator\AsmEmulator\obj\x86\Debug\AsmEmulator.exe
+E:\C#\AsmEmulator\AsmEmulator\AsmEmulator\obj\x86\Debug\AsmEmulator.pdb
+E:\C#\AsmEmulator\AsmEmulator\AsmEmulator\bin\x86\Debug\Content\Consolas.xnb

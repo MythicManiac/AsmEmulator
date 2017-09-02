@@ -1,0 +1,47 @@
+#def snakeLength, 1;
+#def snakeParts, 64;
+#def food, 1;
+#def freeSlots, 1;
+#def freeSlotList, 64;
+
+start:
+    store(snakeLength, 1);
+    store(snakeParts, 0);
+    spawnFood();
+
+updateInput:
+    getInput();
+    jumpIfEqual(ACCUMULATOR, 1, moveLeft);
+    jumpIfEqual(ACCUMULATOR, 2, moveUp);
+    jumpIfEqual(ACCUMULATOR, 4, moveRight);
+    jumpIfEqual(ACCUMULATOR, 8, moveDown);
+
+update:
+    and(snakeParts, food);
+    or(ACCUMULATOR, 136);
+    jumpIfEqual(ACCUMULATOR, 255, grow);
+
+moveLeft:
+    substract(snakeParts, 1);
+    return;
+
+moveUp:
+    substract(snakeParts, 16);
+    return;
+
+moveRight:
+    add(snakeParts, 1);
+    return;
+
+moveDown:
+    add(snakeParts, 16);
+    return;
+
+spawnFood:
+    random(ACCUMULATOR);
+    return;
+
+
+
+grow:
+    return;
